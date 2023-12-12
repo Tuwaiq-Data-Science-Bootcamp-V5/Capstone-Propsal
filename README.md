@@ -2,13 +2,17 @@
 
 Please edit this README.md file based on your Capstone project idea.
 
+<img src='logo.png' style="display: flex; justify-content: center; align-items: center; " height=200; width=300;>
+
 Project Title:
-Write your Capstone Project title.
+Salik (Detect visual Pollution in the road) 
+
 Group Members:
 
-- First Member
-- Second Member
-- Third Member
+- Ali Al mutairi
+- Saleh Abdullah
+- Abdullah Alajalin
+
 
 Objectives:
 Write your main goal behind this project and the objectives that you need to achieve your goal.
