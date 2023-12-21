@@ -30,10 +30,6 @@ Visual Pollution (VP) is the visible deterioration and bad aesthetic quality of 
         <tr><td>24,553 images </td><td>7,242 images </td></tr>
         </table>
 
-| Train| Val |
-| ----- | -------- |
-| 24,553 | 7,242|
-
 - The number of classes: 3 ['barriers', 'sidewalks', 'pothole']
 
 - Columns Description (meaning): ↑  ↑  ↑
