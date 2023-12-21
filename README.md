@@ -25,6 +25,11 @@ Visual Pollution (VP) is the visible deterioration and bad aesthetic quality of 
 
 - The number of images : 
 
+<table align="center" style="margin-left: auto; margin-right: auto;">
+        <tr><th>Train</th><th>Val</th></tr>
+        <tr><td>24,553 images </td><td>7,242 images </td></tr>
+        </table>
+
 | Train| Val |
 | ----- | -------- |
 | 24,553 | 7,242|
