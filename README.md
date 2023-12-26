@@ -2,7 +2,7 @@
 
 ## Project Title: USafe 
 
-Group Members:
+### Group Members:
 
 - Nada Almutairi
 - Refal Alboqami
@@ -20,16 +20,24 @@ The main objective of the USafe project is to develop a device capable of detect
 - Test and evaluate the performance of the system using a diverse set of data and scenarios.
 
 
-Dataset Link:
-Note: you have to choose a real dataset that needs to clean and preprocess.
+### Dataset Link:
 
 https://drive.google.com/drive/folders/1xt64LjVIvjJVanxZRNy66j2-TIej51jN?usp=sharing
 
 
-The expected (Machine learning / Deep Learning) Algorithms, Write the algorithms that you will fit with your proposed solution.
+### The Expected (Machine Learning / Deep Learning) Algorithms:
 
-In our project we used yolov8n model and openCV.
+- Deep Learning: We utilized deep learning techniques to develop our fainting cases detection system.
+YOLOv8: We employed the YOLOv8 model, which is a cutting-edge object detection algorithm, for detecting fainting instances. YOLOv8 is known for its real-time object detection capabilities.
 
-Final Deliverables:
-- README.md file.
-- Due Date: Wed, 13 Dec, at 9:00 p.m.
+- OpenCV: OpenCV, an open-source computer vision library, was utilized in conjunction with YOLOv8 for image and video analysis tasks in our system.
+
+- Deployment with Django: We deployed our model using the Django framework. Django facilitated the creation of a user-friendly web interface, enabling seamless interaction with the system.
+
+- Customized Training: We meticulously customized and fine-tuned the YOLOv8 model to achieve high accuracy and robustness in detecting fainting cases across various environments.
+
+### Key Contributions:
+-	Developed a custom YOLOv8 model for fainting detection.
+-	Integrated the model into a web application using Django framework.
+-	Implemented real-time alerts upon detection of fainting instances.
+-	Ensured user-friendly interface and smooth functionality.
