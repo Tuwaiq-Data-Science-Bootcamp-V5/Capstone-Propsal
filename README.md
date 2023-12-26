@@ -10,14 +10,9 @@
 
 ### USafe Demo:
 
-https://screenpal.com/watch/c0lO3IVHZOM
+<img  src="Demo.jpeg" hight=100 width=100  >
 
-<video src="Demo.mp4" controls>
-</video>
-
-<img  src="Demo.jpeg" hight=600 width=600  >
-
-
+https://scanned.page/p/658b54f859151
 
 ### Main Objective:
 
