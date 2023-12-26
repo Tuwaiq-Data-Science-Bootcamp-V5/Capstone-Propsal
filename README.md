@@ -8,6 +8,11 @@
 - Refal Alboqami
 - Dalal Alharbi
 
+### USafe Demo:
+
+https://screenpal.com/watch/c0lO3IVHZOM
+
+
 ### Main Objective:
 
 The main objective of the USafe project is to develop a device capable of detecting cases of fainting using a camera and alerting the surrounding individuals by triggering an alarm bell.

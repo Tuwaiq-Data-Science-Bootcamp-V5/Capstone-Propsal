@@ -17,7 +17,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
   <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
   <!-- font awesome style -->
   <link href="{%static 'css/font-awesome.min.css'%}" rel="stylesheet" />
@@ -28,6 +29,7 @@
   <link href="{%static 'css/responsive.css' %}" rel="stylesheet" />
 
 </head>
+
 <body>
 
   <div class="hero_area">
@@ -43,10 +45,11 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="home.html">
             <span>
-             USafe
+              USafe
             </span>
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class=""> </span>
           </button>
 
@@ -56,12 +59,12 @@
                 <a class="nav-link" href="home_view.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <nav id="navbar" class="navbar">
-              <li class="nav-item">
-                <a class="nav-link" href=" #slider" > About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#team">Team</a>
-              </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=" #slider"> About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#team">Team</a>
+                </li>
             </ul>
           </div>
         </nav>
@@ -69,7 +72,7 @@
     </header>
     <!-- end header section -->
     <!-- slider section -->
-    <section class="slider_section " >
+    <section class="slider_section ">
       <div id="customCarousel1" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -82,7 +85,8 @@
                       SAFE
                     </h1>
                     <p>
-                      Model detects fainting cases and  triggers instant alerts for quick intervention                 <div class="btn-box">
+                      Model detects fainting cases and triggers instant alerts for quick intervention
+                    <div class="btn-box">
                       <a href="{% url 'main:about_view' %}" class="btn1">
                         Demo
                       </a>
@@ -107,7 +111,8 @@
                       Safe
                     </h1>
                     <p>
-                      Surveillance cameras are connected to the system, enabling advanced image analysis to detect fainting cases                 </p>
+                      Surveillance cameras are connected to the system, enabling advanced image analysis to detect
+                      fainting cases </p>
                     <div class="btn-box">
                       <a href="{% url 'main:about_view' %}" class="btn1">
                         Demo
@@ -133,7 +138,7 @@
                       safe
                     </h1>
                     <p>
-                      contributing to enhancing public safety and improving emergency response                   </p>
+                      contributing to enhancing public safety and improving emergency response </p>
                     <div class="btn-box">
                       <a href="{% url 'main:about_view' %}" class="btn1">
                         Demo
@@ -166,29 +171,31 @@
 
   <section class="service_section layout_padding">
     <div class="service_container">
-      <div class="container " >
+      <div class="container ">
         <div class="heading_container heading_center" id="slider">
-          <h2 >
+          <h2>
             <span> What is USafe ?</span>
           </h2>
           <p>
-            USafe project is to develop a device capable of detecting cases of fainting using a camera and alerting the surrounding individuals by triggering an alarm bell
+            USafe project is to develop a device capable of detecting cases of fainting using a camera and alerting the
+            surrounding individuals by triggering an alarm bell
           </p>
         </div>
         <div class="row">
           <div class="col-md-4 ">
-            <div class="box " >
+            <div class="box ">
               <div class="img-box">
                 <img src="{%static 'images/detect.jpg' %}" alt="">
               </div>
-              <div class="detail-box" >
+              <div class="detail-box">
                 <h5>
                   Video-based Detection
                 </h5>
                 <p>
-                  Develop a deep learning model for automatic detection of fainting cases by analyzing the video stream from the camera
+                  Develop a deep learning model for automatic detection of fainting cases by analyzing the video stream
+                  from the camera
                 </p>
-              
+
               </div>
             </div>
           </div>
@@ -202,7 +209,8 @@
                   Enhanced Accuracy
                 </h5>
                 <p>
-                  Improve the accuracy of fainting detection by training the model on a wide range of possible fainting scenarios
+                  Improve the accuracy of fainting detection by training the model on a wide range of possible fainting
+                  scenarios
                 </p>
               </div>
             </div>
@@ -214,10 +222,11 @@
               </div>
               <div class="detail-box">
                 <h5>
-              Point-Based Rewards
+                  Automated Alarm
                 </h5>
                 <p>
-                  Design and develop an alarm bell activation system that is automatically triggered upon detecting a fainting case
+                  Design and develop an alarm bell activation system that is automatically triggered upon detecting a
+                  fainting case
                 </p>
               </div>
             </div>
@@ -226,15 +235,15 @@
         <div class="container">
           <!--Section: Content-->
           <section>
-              <div class="row d-flex">
-                          <img class="col-6 pt-5 mt-5" src="{%static 'images/our logo.png' %}"/>
-                          
-                          <img class="col-4 pt-5 mt-5" src="{%static 'images/b.png' %}"/>
-                      </div>
-                  </div>
-  
-        <div class="btn-box" >
-            <a href="{% url 'main:webcam' %}">Get Started</a>
+            <div class="row d-flex">
+              <img class="col-6 pt-5 mt-5" src="{%static 'images/our logo.png' %}" />
+
+              <img class="col-4 pt-5 mt-5" src="{%static 'images/b.png' %}" />
+            </div>
+        </div>
+
+        <div class="btn-box">
+          <a href="{% url 'main:webcam' %}">Get Started</a>
           </a>
         </div>
       </div>
@@ -245,9 +254,9 @@
 
   <!-- team section -->
   <section class="team_section layout_padding" id="team">
-    <div class="container-fluid" >
-      <div class="heading_container heading_center" >
-        <h2 >
+    <div class="container-fluid">
+      <div class="heading_container heading_center">
+        <h2>
           Our <span> Team</span>
         </h2>
       </div>
@@ -266,9 +275,9 @@
                 <p>
                   Data Scientist
                 </p>
-                Computer Science            </p>
-              </p>
-              Web developer            </p>
+                Computer Science </p>
+                </p>
+                Web developer </p>
 
               </div>
               <div class="social_box">
@@ -300,10 +309,10 @@
                   Nada Almutairi
                 </h5>
                 <p>
-                  Data Scientist                </p>
+                  Data Scientist </p>
 
-computational and Applied Mathematics                </p>
-Full Stack developer                </p>
+                computational and Applied Mathematics </p>
+                Full Stack developer </p>
 
               </div>
               <div class="social_box">
@@ -313,8 +322,7 @@ Full Stack developer                </p>
                 <a href="#">
                   <i class="fa fa-twitter" aria-hidden="true"></i>
                 </a>
-                <a href= 
-                "https://www.linkedin.com/in/nada-almutairi-a8b66813a/">
+                <a href="https://www.linkedin.com/in/nada-almutairi-a8b66813a/">
                   <i class="fa fa-linkedin" aria-hidden="true"></i>
                 </a>
                 <a href="#">
@@ -338,8 +346,8 @@ Full Stack developer                </p>
                 <p>
                   Data Scientist
                 </p>
-                Computer Science            </p>
-                Paramedic            </p>
+                Computer Science </p>
+                Paramedic </p>
 
 
               </div>
@@ -363,10 +371,10 @@ Full Stack developer                </p>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
-            
+
+          </div>
         </div>
       </div>
-    </div>
   </section>
   <!-- end team section -->
 
@@ -377,7 +385,7 @@ Full Stack developer                </p>
     <div class="container">
       <div class="heading_container heading_center psudo_white_primary mb_45">
         <h2>
-        <span>Usages</span>
+          <span>Usages</span>
         </h2>
       </div>
       <div class="carousel-wrap ">
@@ -393,12 +401,14 @@ Full Stack developer                </p>
                     <h6>
                       YOLOv8
                     </h6>
-                 
+
                   </div>
                   <i class="fa fa-quote-left" aria-hidden="true"></i>
                 </div>
                 <p>
-                  YOLOv8 is a new state-of-the-art computer vision model built by Ultralytics, the creators of YOLOv5. The YOLOv8 model contains out-of-the-box support for object detection, classification, and segmentation tasks, accessible through a Python package as well as a command line interface </p>
+                  YOLOv8 is a new state-of-the-art computer vision model built by Ultralytics, the creators of YOLOv5.
+                  The YOLOv8 model contains out-of-the-box support for object detection, classification, and
+                  segmentation tasks, accessible through a Python package as well as a command line interface </p>
               </div>
             </div>
           </div>
@@ -413,12 +423,14 @@ Full Stack developer                </p>
                     <h6>
                       Roboflow
                     </h6>
-                 
+
                   </div>
                   <i class="fa fa-quote-left" aria-hidden="true"></i>
                 </div>
                 <p>
-                  Use Roboflow Datasets to upload, organize, collaborate, label, augment, and process your dataset. After that, we can simplify the process of training with Roboflow Train and accelerate deployment with our many deployment options using Roboflow Deploy </p>
+                  Use Roboflow Datasets to upload, organize, collaborate, label, augment, and process your dataset.
+                  After that, we can simplify the process of training with Roboflow Train and accelerate deployment with
+                  our many deployment options using Roboflow Deploy </p>
               </div>
             </div>
           </div>
@@ -433,12 +445,15 @@ Full Stack developer                </p>
                     <h6>
                       GRAM website
                     </h6>
-              
+
                   </div>
                   <i class="fa fa-quote-left" aria-hidden="true"></i>
                 </div>
                 <p>
-                  FPDS dataset from GRAM website: The website "gram.web.uah.es"  represents the Robotics, Automation, and Mechatronics Group at the University of Alcalá in Spain, offering information on their research, projects, and expertise in robotics, automation, and mechatronics fields, providing insights into academic work and potential collaboration opportunities</p>
+                  FPDS dataset from GRAM website: The website "gram.web.uah.es" represents the Robotics, Automation, and
+                  Mechatronics Group at the University of Alcalá in Spain, offering information on their research,
+                  projects, and expertise in robotics, automation, and mechatronics fields, providing insights into
+                  academic work and potential collaboration opportunities</p>
               </div>
             </div>
           </div>
@@ -453,12 +468,16 @@ Full Stack developer                </p>
                     <h6>
                       Kaggle
                     </h6>
-                 
+
                   </div>
                   <i class="fa fa-quote-left" aria-hidden="true"></i>
                 </div>
                 <p>
-                  Human Detection Dataset/ Human action Recognition dataset from Kaggle: Kaggle is a platform for data science enthusiasts and professionals, offering datasets, competitions, and a collaborative environment for machine learning and analytics, fostering learning, skill development, and innovation in data-driven fields   </p>          </div>
+                  Human Detection Dataset/ Human action Recognition dataset from Kaggle: Kaggle is a platform for data
+                  science enthusiasts and professionals, offering datasets, competitions, and a collaborative
+                  environment for machine learning and analytics, fostering learning, skill development, and innovation
+                  in data-driven fields </p>
+              </div>
             </div>
           </div>
         </div>
@@ -495,7 +514,7 @@ Full Stack developer                </p>
               <a href="">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span>
-                  usafe.detection@gmail.com                </span>
+                  usafe.detection@gmail.com </span>
               </a>
             </div>
           </div>
@@ -545,8 +564,9 @@ Full Stack developer                </p>
   <!-- jQery -->
   <script type="text/javascript" src="{%static 'js/jquery-3.4.1.min.js' %}"></script>
   <!-- popper js -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
   <!-- bootstrap js -->
   <script type="text/javascript" src="{%static 'js/bootstrap.js' %}"></script>
   <!-- owl slider -->
