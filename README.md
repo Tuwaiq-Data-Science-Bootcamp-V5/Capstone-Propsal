@@ -3,6 +3,10 @@
 
 
 # 🌴 Kharaf: Your farming companion 🌴
+## Project Team
+- [Yasser Almubaddil](https://www.linkedin.com/in/yasser-almubaddil/)
+- [Faisal Alotaibi](https://www.linkedin.com/in/faisal-z-al-etaibi-4217a41ba/)
+- [Hesham Alsadan ](https://www.linkedin.com/in/hesham-alsadan/)
 ## Description
 Kharaf is an Image Classification project designed to assist in the classification of Date types, Maturity, and Grade, as well as the detection of diseases affecting Palm Trees. The project primarily utilizes Convolutional Neural Networks (CNNs) for image classification tasks.
 
@@ -49,6 +53,7 @@ The image classification model for date fruits is based on a Convolutional Neura
 
 ## Deployment: Run app.py
 Currently, the project is undergoing deployment. Instructions on how to use the project, including installation steps, training the CNN models, running the web application, and utilizing the image classification and disease detection features will be provided once the deployment phase is completed.
-
-
+### Demo:
+Watch a demo of Kharaf models in action. The video provides a step-by-step walkthrough of deploying the model and making predictions on images.
+[Click Here]([https://www.linkedin.com/in/hesham-alsadan/](https://www.linkedin.com/posts/activity-7145474349653831680-3On7?utm_source=share&utm_medium=member_desktop)https://www.linkedin.com/posts/activity-7145474349653831680-3On7?utm_source=share&utm_medium=member_desktop)
 
