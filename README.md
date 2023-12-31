@@ -55,5 +55,4 @@ The image classification model for date fruits is based on a Convolutional Neura
 Currently, the project is undergoing deployment. Instructions on how to use the project, including installation steps, training the CNN models, running the web application, and utilizing the image classification and disease detection features will be provided once the deployment phase is completed.
 ### Demo:
 - Watch a demo of Kharaf models in action. The video provides a step-by-step walkthrough of deploying the model and making predictions on images.
-- [Click Here](https://www.linkedin.com/posts/activity-7145474349653831680-3On7?utm_source=share&utm_medium=member_desktop)https://www.linkedin.com/posts/activity-7145474349653831680-3On7?utm_source=share&utm_medium=member_desktop)
-
+- [Click Here](https://www.linkedin.com/posts/activity-7145474349653831680-3On7?utm_source=share&utm_medium=member_desktop)
