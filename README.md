@@ -1,5 +1,5 @@
 
-![Kharaf](KharafLogo.png)
+![Kharaf](kharafLogo.png)
 
 
 # 🌴 Kharaf: Your farming companion 🌴
