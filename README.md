@@ -10,13 +10,13 @@
 
 ### USafe Demo:
 
-<img  src="Demo.PNG" hight=200 width=200  >
 
-https://b.top4top.io/m_2917ulp790.mp4
+https://github.com/RefalAlboqami/USafe/assets/148760136/6c70d72b-7c1a-4e85-817e-d601ed124de5
+
 
 ### Main Objective:
 
-The main objective of the USafe project is to develop a device capable of detecting cases of fainting using a camera and alerting the surrounding individuals by triggering an alarm bell.
+The main objective of the USafe project is to develop a model capable of detecting cases of fainting using a camera and alerting the surrounding individuals by triggering an alarm bell.
 
 ### Subobjectives:
 
@@ -31,7 +31,7 @@ The main objective of the USafe project is to develop a device capable of detect
 https://drive.google.com/drive/folders/1xt64LjVIvjJVanxZRNy66j2-TIej51jN?usp=sharing
 
 
-### The Expected (Machine Learning / Deep Learning) Algorithms:
+### The Deep Learning Algorithms and Libraries:
 
 - Deep Learning: We utilized deep learning techniques to develop our fainting cases detection system.
 YOLOv8: We employed the YOLOv8 model, which is a cutting-edge object detection algorithm, for detecting fainting instances. YOLOv8 is known for its real-time object detection capabilities.
@@ -43,7 +43,8 @@ YOLOv8: We employed the YOLOv8 model, which is a cutting-edge object detection a
 - Customized Training: We meticulously customized and fine-tuned the YOLOv8 model to achieve high accuracy and robustness in detecting fainting cases across various environments.
 
 ### Key Contributions:
--	Developed a custom YOLOv8 model for fainting detection.
--	Integrated the model into a web application using Django framework.
--	Implemented real-time alerts upon detection of fainting instances.
--	Ensured user-friendly interface and smooth functionality.
+-   Developed a custom YOLOv8 model for fainting detection.
+-   Integrated the model into a web application using Django framework.
+-   Implemented real-time alerts upon detection of fainting instances.
+-   Ensured user-friendly interface and smooth functionality.
+
